@@ -3,9 +3,8 @@
 unsigned char ToggleCnt = 0;
 unsigned char F_ToggleLed=0; 
 
-const char* ssid = "Anupam";
-const char* password = "anupam99";
-int ledPin = LED_BUILTIN; // GPIO13
+const char* ssid = "SSID";
+const char* password = "Password; // GPIO13
 WiFiServer server(80);
 
 
